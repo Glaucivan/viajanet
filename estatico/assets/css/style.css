@@ -1,0 +1,326 @@
+@import url('http://fonts.googleapis.com/css?family=Lobster');/*Título*/
+@import url('http://fonts.googleapis.com/css?family=Pacifico');/*Subtítulo*/
+@import url('http://fonts.googleapis.com/css?family=Syncopate:700'); /*Botão Portfólio*/
+@import url(http://fonts.googleapis.com/css?family=Michroma); /*Menu*/
+@import url(http://fonts.googleapis.com/css?family=Lobster); /*Habilidades, Work*/
+@import url(http://fonts.googleapis.com/css?family=Oswald:700); /*Trabalhos h3*/
+/* Basic Styles */
+
+
+img,
+picture,
+video,
+embed {
+    max-width: 100%;
+}
+
+    .clearfix:before,
+    .clearfix:after {
+    content: " ";
+    display: table;
+    }
+     
+    .clearfix:after {
+    clear: both;
+    }
+     
+    .clearfix {
+    *zoom: 1;
+    }
+
+
+    *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+body{
+	width:1349px;
+	background-size: cover; /*Css padrão*/
+	-webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+ 	
+	font-size:11px;
+}
+
+/*Menu*/
+
+.logotipo_esquerda{
+	float:left;
+	padding-top:18px;
+	padding-right:80px;
+}
+
+#ligue{
+	padding-right:14px;
+	padding-top:20px;
+	padding-left:3px;
+}
+
+/*MENU*/
+nav {
+	height: 80px;
+	width:;
+	background-color: #f6f5f5;
+	font-size:12px;
+	font-family:'Michroma';
+	font-weight: bold;
+	line:#C0C0C0;
+	text-align: center;
+}
+nav ul {
+	padding: 10;
+	margin: 0 auto;
+	height: 80px;
+}
+nav li {
+	display: inline;
+	float: left;
+	padding-left:14px;
+}
+nav a {
+	color: #5f5e5e;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	line-height:80px;
+}
+li a:hover{
+	color: #1141a4;
+	text-decoration:none;
+}
+
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color:;
+}
+nav a#menuLista {
+	display: none;
+}
+/*Fim do menu*/
+
+
+#tipo_busca{
+	filter:alpha(opacity=60); 
+	opacity:0.9;
+	font-size:15px;
+	margin-top:10%;
+	margin-left:12%;
+	margin-bottom:5%;
+	position: absolute;
+	z-index:2;
+}
+
+.slide{
+	
+	z-index:1;
+	position: absolute;
+}
+
+.esquerda{
+	float: left;
+	text-align: left;
+	width:440px;
+}
+
+.direita{
+	float: right;
+	text-align:left;
+	width:440px;
+}
+
+.dtIdaVoltaDireita{
+	float: right;
+	width:199px;
+}
+
+.dtIdaVoltaEsquerda{
+	float: left;
+	width:199px;
+}
+
+.boxDireita{
+	float:left;
+	padding-right:14px;
+}
+
+.boxDireitaPacotes{
+	float: left;
+	width:90px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+	
+.boxDireitaImg{
+	float:right;
+	widows: 70px;
+	padding-bottom:4px;
+}
+
+.btnPesquisar{
+	float: right;
+}
+
+.btnPesquisarHoteis{
+	float: right;
+}
+
+.destinoHoteis{
+	float: left;
+	align: left;
+	text-align: left;
+}
+
+.retirarCar{
+	float: left;
+	align: left;
+	text-align: left;
+}
+
+.boxCarrosEsquerda{
+	float: left;
+	width: 222px;
+	padding-left: 1px;
+	text-align: justify;
+}
+
+.icones{
+	widht:2px;
+	height: 2px;
+	color: #FFF;
+}
+
+#passagensCards{
+ width:1349px;
+ height:350px;/*230/1128*/
+ background-color: #f6f5f5;
+ margin:0 auto;
+ clear:both;
+ position: absolute;
+ z-index:3;
+ padding-left:100px;
+ top:770px;
+ padding-right: 100px;
+}
+
+.card{
+ width:270px;
+ height:270px;/*230/1128*/
+ float: left;
+}
+
+#agenciaViagens1{
+ width:1349px;
+ height:290px;/*230/1128*/
+ background-color: #f6f5f5;
+ margin:0 auto;
+ clear:both;
+ padding-left:100px;
+ padding-right:100px;
+ position: absolute;
+ z-index: 5;
+ top: 1100px;
+}
+
+.boxAgenciaViagensEsq1{
+	float: left;
+	width: 190px;
+	height: 210px;
+	color: #5f5e5e;
+}
+
+a{
+	color: #5f5e5e;
+}
+
+a:hover{
+	color: #1141a4;
+}
+
+h3{
+	color: #5f5e5e;
+}
+
+#agenciaViagens2{
+ width:1349px;
+ height:150px;/*230/1128*/
+ background-color: #f6f5f5;
+ margin:0 auto;
+ clear:both;
+ position: absolute;
+ z-index:6;
+ top: 1390px;
+ padding-left:50px;
+ padding-right:50px;
+}
+
+.boxAgenciaViagensEsq2{
+	padding-left: 10px;
+}
+
+
+
+.boxAgenciaViagensDir2{
+	float: right;
+	padding-right: 10px;
+}
+
+hr{
+ width: 1250px;
+}
+
+
+
+#footer{
+ width:1349px;
+ height:150px;/*230/1128*/
+ background-color: #f6f5f5;
+ position:absolute;
+ z-index: 7;
+ top: 1500px;
+ margin:0 auto;
+ clear:both;
+}
+
+#footer h4{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color: #5f5e5e;
+	padding-top:50px;
+	font-size:14px;
+	}
+#logo1{ /*Logotipo/Logomarca*/
+	width:15px;
+	height:15px;
+	}
+	
+	/*ìcones*/
+	
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px){ 
+
+#footer{
+ width:100%;
+}
+
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) { 
+ }
+
+/*Dispositivos large (desktops com 992px ou mais8)*/
+@media (min-width: 992px) { 
+ }
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+ }
+	
