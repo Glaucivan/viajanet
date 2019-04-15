@@ -238,18 +238,7 @@
 	
 	<footer class="container">
 		<h6>TVLX Viagens e Turismo S.A. CNPJ: | 12.337.454/0001-31 | Rua Manoel Coelho, 600 - 1º andar - São Caetano do Sul- SP - CEP 09510-101 <br>© 2019 ViajaNet Viagens Online - Todos os direitos reservados </h6> 
-	</footer>
-	
-	<script>
-		function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-	</script>
+	</footer>	
 	
 	<script src="assets/bootstrap.js"></script> 
 	<script src="assets/bootstrap.min.js"></script>
